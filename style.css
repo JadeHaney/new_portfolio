@@ -68,11 +68,18 @@ nav a:visited {
 
 #home {
     /* Add styles for the image carousel */
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #about {
     /* Add styles for the about section */
+    font-size: 20px;
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #gallery {
@@ -84,6 +91,10 @@ nav a:visited {
 
 #contact {
     /* Add styles for the about section */
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* Style each project thumbnail */
@@ -101,6 +112,8 @@ nav a:visited {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px; /* Adjust the value to control the roundness of corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values for the shadow */
 }
 
 .thumbnail-overlay {
@@ -117,6 +130,8 @@ nav a:visited {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.2s;
+    border-radius: 10px; /* Adjust the value to control the roundness of corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values for the shadow */
 }
 
 .project-thumbnail:hover .thumbnail-overlay {
