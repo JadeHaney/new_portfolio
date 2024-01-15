@@ -112,6 +112,7 @@ nav a:visited {
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
     border-radius: 10px; /* Adjust the value to control the roundness of corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values for the shadow */
 }
